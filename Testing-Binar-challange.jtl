@@ -1,0 +1,73 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1665212851377,8401,POST/auth/register,400,Bad Request,2 user- 10 second- 1Loop 1-1,text,false,,344,1537,2,2,https://market-final-project.herokuapp.com/auth/register,8401,0,8110
+1665212856373,3424,POST/auth/register,400,Bad Request,2 user- 10 second- 1Loop 1-2,text,false,,344,1555,2,2,https://market-final-project.herokuapp.com/auth/register,3424,0,3124
+1665212859779,348,POST/auth/login,201,Created,2 user- 10 second- 1Loop 1-1,text,true,,522,269,2,2,https://market-final-project.herokuapp.com/auth/login,348,0,0
+1665212859799,398,POST/auth/login,201,Created,2 user- 10 second- 1Loop 1-2,text,true,,522,269,2,2,https://market-final-project.herokuapp.com/auth/login,398,0,0
+1665212860127,539,POST/seller/product,403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,39960,2,2,https://market-final-project.herokuapp.com/seller/product,539,0,0
+1665212860198,560,POST/seller/product,403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,39936,2,2,https://market-final-project.herokuapp.com/seller/product,560,0,0
+1665212860667,271,GET/seller/product,403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,185,2,2,https://market-final-project.herokuapp.com/seller/product,271,0,0
+1665212860760,313,GET/seller/product,403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,185,2,2,https://market-final-project.herokuapp.com/seller/product,313,0,0
+1665212860939,311,GET/seller/product/{id},403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,200,2,2,https://market-final-project.herokuapp.com/seller/product/23627?id=23627,311,0,0
+1665212861075,339,GET/seller/product/{id},403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,200,2,2,https://market-final-project.herokuapp.com/seller/product/23627?id=23627,339,0,0
+1665212861251,288,DELETE/seller/product/{id},403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,222,2,2,https://market-final-project.herokuapp.com/seller/product/23628?id=23628,288,0,0
+1665212861415,281,DELETE/seller/product/{id},403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,222,2,2,https://market-final-project.herokuapp.com/seller/product/23628?id=23628,281,0,0
+1665212861540,338,GET/buyer/product,200,OK,2 user- 10 second- 1Loop 1-1,text,true,,2008,248,2,2,https://market-final-project.herokuapp.com/buyer/product?status=available&category_id=1&search=Telepon&page=1&per_page=4,338,0,0
+1665212861697,312,GET/buyer/product,200,OK,2 user- 10 second- 1Loop 1-2,text,true,,2008,248,2,2,https://market-final-project.herokuapp.com/buyer/product?status=available&category_id=1&search=Telepon&page=1&per_page=4,311,0,0
+1665212861879,282,GET/buyer/product/{id},200,OK,2 user- 10 second- 1Loop 1-1,text,true,,872,190,2,2,https://market-final-project.herokuapp.com/buyer/product/23607,282,0,0
+1665212862010,305,GET/buyer/product/{id},200,OK,2 user- 10 second- 1Loop 1-2,text,true,,872,190,2,2,https://market-final-project.herokuapp.com/buyer/product/23607,305,0,0
+1665212862161,321,POST/buyer/order,403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,252,2,2,https://market-final-project.herokuapp.com/buyer/order,321,0,0
+1665212862316,290,POST/buyer/order,403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,252,2,2,https://market-final-project.herokuapp.com/buyer/order,290,0,0
+1665212862483,294,GET/buyer/order,403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,182,2,2,https://market-final-project.herokuapp.com/buyer/order,294,0,0
+1665212862613,284,GET/buyer/order,403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,182,2,2,https://market-final-project.herokuapp.com/buyer/order,284,0,0
+1665212862778,279,GET/buyer/order/{id},403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,205,2,2,https://market-final-project.herokuapp.com/buyer/order/11318?status=available,279,0,0
+1665212862899,278,GET/buyer/order/{id},403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,205,2,2,https://market-final-project.herokuapp.com/buyer/order/11318?status=available,278,0,0
+1665212863058,281,PUT/buyer/order/{id},403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,234,2,2,https://market-final-project.herokuapp.com/buyer/order/11318,280,0,0
+1665212863179,279,PUT/buyer/order/{id},403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,234,1,1,https://market-final-project.herokuapp.com/buyer/order/11318,279,0,0
+1665216436085,3427,POST/auth/register,400,Bad Request,2 user- 10 second- 1Loop 1-1,text,false,,344,1600,1,1,https://market-final-project.herokuapp.com/auth/register,3420,0,3061
+1665216436085,3427,POST/auth/register,400,Bad Request,2 user- 10 second- 1Loop 1-1,text,false,,344,1600,1,1,https://market-final-project.herokuapp.com/auth/register,3420,0,3061
+1665216439525,435,POST/auth/login,201,Created,2 user- 10 second- 1Loop 1-1,text,true,,522,269,1,1,https://market-final-project.herokuapp.com/auth/login,435,0,0
+1665216439525,435,POST/auth/login,201,Created,2 user- 10 second- 1Loop 1-1,text,true,,522,269,1,1,https://market-final-project.herokuapp.com/auth/login,435,0,0
+1665216439961,1123,POST/seller/product,403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,39952,2,2,https://market-final-project.herokuapp.com/seller/product,1123,0,0
+1665216439961,1123,POST/seller/product,403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,39952,2,2,https://market-final-project.herokuapp.com/seller/product,1123,0,0
+1665216441086,293,GET/seller/product,403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,185,2,2,https://market-final-project.herokuapp.com/seller/product,293,0,0
+1665216441086,293,GET/seller/product,403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,185,2,2,https://market-final-project.herokuapp.com/seller/product,293,0,0
+1665216441380,285,GET/seller/product/{id},403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,200,2,2,https://market-final-project.herokuapp.com/seller/product/23627?id=23627,285,0,0
+1665216441380,285,GET/seller/product/{id},403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,200,2,2,https://market-final-project.herokuapp.com/seller/product/23627?id=23627,285,0,0
+1665216441666,300,DELETE/seller/product/{id},403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,222,2,2,https://market-final-project.herokuapp.com/seller/product/23628?id=23628,300,0,0
+1665216441666,300,DELETE/seller/product/{id},403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,222,2,2,https://market-final-project.herokuapp.com/seller/product/23628?id=23628,300,0,0
+1665216440879,1349,POST/auth/register,400,Bad Request,2 user- 10 second- 1Loop 1-2,text,false,,344,1591,2,2,https://market-final-project.herokuapp.com/auth/register,1349,0,950
+1665216440879,1349,POST/auth/register,400,Bad Request,2 user- 10 second- 1Loop 1-2,text,false,,344,1591,2,2,https://market-final-project.herokuapp.com/auth/register,1349,0,950
+1665216441967,322,GET/buyer/product,200,OK,2 user- 10 second- 1Loop 1-1,text,true,,2008,248,2,2,https://market-final-project.herokuapp.com/buyer/product?status=available&category_id=1&search=Telepon&page=1&per_page=4,322,0,0
+1665216441967,322,GET/buyer/product,200,OK,2 user- 10 second- 1Loop 1-1,text,true,,2008,248,2,2,https://market-final-project.herokuapp.com/buyer/product?status=available&category_id=1&search=Telepon&page=1&per_page=4,322,0,0
+1665216442230,349,POST/auth/login,201,Created,2 user- 10 second- 1Loop 1-2,text,true,,522,269,2,2,https://market-final-project.herokuapp.com/auth/login,349,0,0
+1665216442230,349,POST/auth/login,201,Created,2 user- 10 second- 1Loop 1-2,text,true,,522,269,2,2,https://market-final-project.herokuapp.com/auth/login,349,0,0
+1665216442290,289,GET/buyer/product/{id},200,OK,2 user- 10 second- 1Loop 1-1,text,true,,872,190,2,2,https://market-final-project.herokuapp.com/buyer/product/23607,289,0,0
+1665216442290,289,GET/buyer/product/{id},200,OK,2 user- 10 second- 1Loop 1-1,text,true,,872,190,2,2,https://market-final-project.herokuapp.com/buyer/product/23607,289,0,0
+1665216442580,286,POST/buyer/order,403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,252,2,2,https://market-final-project.herokuapp.com/buyer/order,286,0,0
+1665216442580,286,POST/buyer/order,403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,252,2,2,https://market-final-project.herokuapp.com/buyer/order,286,0,0
+1665216442867,319,GET/buyer/order,403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,182,2,2,https://market-final-project.herokuapp.com/buyer/order,319,0,0
+1665216442867,319,GET/buyer/order,403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,182,2,2,https://market-final-project.herokuapp.com/buyer/order,319,0,0
+1665216442580,676,POST/seller/product,403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,39928,2,2,https://market-final-project.herokuapp.com/seller/product,676,0,0
+1665216442580,676,POST/seller/product,403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,39928,2,2,https://market-final-project.herokuapp.com/seller/product,676,0,0
+1665216443187,329,GET/buyer/order/{id},403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,205,2,2,https://market-final-project.herokuapp.com/buyer/order/11318?status=available,329,0,0
+1665216443187,329,GET/buyer/order/{id},403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,205,2,2,https://market-final-project.herokuapp.com/buyer/order/11318?status=available,329,0,0
+1665216443258,302,GET/seller/product,403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,185,2,2,https://market-final-project.herokuapp.com/seller/product,302,0,0
+1665216443258,302,GET/seller/product,403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,185,2,2,https://market-final-project.herokuapp.com/seller/product,302,0,0
+1665216443518,298,PUT/buyer/order/{id},403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,234,2,2,https://market-final-project.herokuapp.com/buyer/order/11318,298,0,0
+1665216443518,298,PUT/buyer/order/{id},403,Forbidden,2 user- 10 second- 1Loop 1-1,text,false,,354,234,2,2,https://market-final-project.herokuapp.com/buyer/order/11318,298,0,0
+1665216443561,290,GET/seller/product/{id},403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,200,1,1,https://market-final-project.herokuapp.com/seller/product/23627?id=23627,290,0,0
+1665216443561,290,GET/seller/product/{id},403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,200,1,1,https://market-final-project.herokuapp.com/seller/product/23627?id=23627,290,0,0
+1665216443852,379,DELETE/seller/product/{id},403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,222,1,1,https://market-final-project.herokuapp.com/seller/product/23628?id=23628,379,0,0
+1665216443852,379,DELETE/seller/product/{id},403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,222,1,1,https://market-final-project.herokuapp.com/seller/product/23628?id=23628,379,0,0
+1665216444232,310,GET/buyer/product,200,OK,2 user- 10 second- 1Loop 1-2,text,true,,2008,248,1,1,https://market-final-project.herokuapp.com/buyer/product?status=available&category_id=1&search=Telepon&page=1&per_page=4,310,0,0
+1665216444232,310,GET/buyer/product,200,OK,2 user- 10 second- 1Loop 1-2,text,true,,2008,248,1,1,https://market-final-project.herokuapp.com/buyer/product?status=available&category_id=1&search=Telepon&page=1&per_page=4,310,0,0
+1665216444544,289,GET/buyer/product/{id},200,OK,2 user- 10 second- 1Loop 1-2,text,true,,872,190,1,1,https://market-final-project.herokuapp.com/buyer/product/23607,289,0,0
+1665216444544,289,GET/buyer/product/{id},200,OK,2 user- 10 second- 1Loop 1-2,text,true,,872,190,1,1,https://market-final-project.herokuapp.com/buyer/product/23607,289,0,0
+1665216444834,379,POST/buyer/order,403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,252,1,1,https://market-final-project.herokuapp.com/buyer/order,379,0,0
+1665216444834,379,POST/buyer/order,403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,252,1,1,https://market-final-project.herokuapp.com/buyer/order,379,0,0
+1665216445214,396,GET/buyer/order,403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,182,1,1,https://market-final-project.herokuapp.com/buyer/order,396,0,0
+1665216445214,396,GET/buyer/order,403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,182,1,1,https://market-final-project.herokuapp.com/buyer/order,396,0,0
+1665216445611,333,GET/buyer/order/{id},403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,205,1,1,https://market-final-project.herokuapp.com/buyer/order/11318?status=available,333,0,0
+1665216445611,333,GET/buyer/order/{id},403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,205,1,1,https://market-final-project.herokuapp.com/buyer/order/11318?status=available,333,0,0
+1665216445945,282,PUT/buyer/order/{id},403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,234,1,1,https://market-final-project.herokuapp.com/buyer/order/11318,282,0,0
+1665216445945,282,PUT/buyer/order/{id},403,Forbidden,2 user- 10 second- 1Loop 1-2,text,false,,354,234,1,1,https://market-final-project.herokuapp.com/buyer/order/11318,282,0,0
